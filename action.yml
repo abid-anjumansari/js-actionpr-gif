@@ -1,4 +1,4 @@
-name: 'Giphy PR Comment'
+name: 'Devops Giphy PR Comment'
 description: 'Automatically add a thank-you Giphy GIF to pull requests.'
 inputs:
   github-token:
@@ -10,3 +10,6 @@ inputs:
 runs:
   using: 'node20'
   main: 'dist/index.js'
+branding:
+  color: green
+  icon: anchor
